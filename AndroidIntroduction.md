@@ -5,5 +5,5 @@
 
 区别 | JVM | DVM
 --|--|--|
-编译后文件的格式 | .java -> .class -> .jar | .java -> .class -> .dex->.apk
+编译后文件的格式 | .java -> .class -> .jar | .java -> .class -> .dex -> .apk
 
