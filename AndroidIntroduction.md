@@ -1,4 +1,5 @@
 # Android Introduction
 
-##JVM跟DVM的区别
+##JVM跟DVM的比较
 ---
+
