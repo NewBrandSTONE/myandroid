@@ -10,4 +10,8 @@ Gradle是一种依赖管理工具，基于Groovy语言，面向Java应用为主�
 
 ![](/images/gradle-01.jpeg)
 
+1.9GAG/app/build.gradle
+
+这个文件是app文件夹下这个Module的gradle配置文件，也可以算是整个项目最主要的gradle配置文件，我们来看下这个文件的内容：
+
 
