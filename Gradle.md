@@ -6,7 +6,7 @@ Gradle是一种依赖管理工具，基于Groovy语言，面向Java应用为主�
 
 ##Gradle的基本概念
 ---
-以stormzhang的开源项目9GAG为例说明
+以stormzhang的开源项目9GAG为例说明，与Gradle有关的文件如下几个：
 
 ![](/images/gradle-01.jpeg)
 
