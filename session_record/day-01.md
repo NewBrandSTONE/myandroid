@@ -5,4 +5,5 @@
 3.在安卓中文文档 tade里面看对应的api文档
 4.mac配置adb命令
 5.as与genmoni怎么关联
-6.ViewGroup五大组件
+6.ViewGroup的五大组件面试常考
+7.
