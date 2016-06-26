@@ -21,5 +21,5 @@ settings.setJavaScriptEnable(true);
 点击网页的时候是默认打开了一个浏览器
 
 wv.setWebViewCilent(new WebViewClient() {
-  return super.showOverriderURLEncoding
+  return super.showOverriderURLloading
 });
