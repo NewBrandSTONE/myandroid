@@ -14,4 +14,4 @@
 
 ***7.xml中@+id与@id的区别***
 
-8.WebView 默认js不能加载，必须要获取了setting才行
+8.WebView 默认js不能加载，必须要获取了settings才行
