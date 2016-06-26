@@ -5,3 +5,5 @@
 2.Tablerow，android中唯一不用指定宽高的控件
 
 3.dp是宽高的单位，sp是字体的单位
+
+4.AS中打印System.out.println()的快捷键是sout
