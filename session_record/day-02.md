@@ -7,3 +7,11 @@
 3.dp是宽高的单位，sp是字体的单位
 
 4.AS中打印System.out.println()的快捷键是sout
+
+5.scollview只能包含一个组件
+
+6.Calender获取年月日
+
+***7.xml中@+id与@id的区别***
+
+8.WebView 默认js不能加载，必须要获取了setting才行
