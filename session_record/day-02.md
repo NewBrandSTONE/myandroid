@@ -15,3 +15,11 @@
 ***7.xml中@+id与@id的区别***
 
 8.WebView 默认js不能加载，必须要获取了settings才行
+
+settings.setJavaScriptEnable(true);
+
+点击网页的时候是默认打开了一个浏览器
+
+wv.setWebViewCilent(new WebViewClient() {
+  return super.showOverriderURLEncoding
+});
