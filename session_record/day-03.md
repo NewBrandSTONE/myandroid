@@ -10,4 +10,6 @@
 
 2.全局变量命名规范 m业务名称控件缩写
 
-3.Android踏得网
+3.Android踏得网（用来看API）
+
+4.android studio 怎么测试（百度）
