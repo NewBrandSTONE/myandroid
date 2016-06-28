@@ -6,3 +6,4 @@
 
 ##测试
 1.冒烟测试，可以使用monkey测试，测试软件中，在60秒内，随意点击屏幕的界面
+在sdk->tools->monkeyrunner.bat
