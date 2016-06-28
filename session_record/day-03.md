@@ -9,3 +9,5 @@
 在sdk->tools->monkeyrunner.bat
 
 2.全局变量命名规范 m业务名称控件缩写
+
+3.Android踏得网
