@@ -1,6 +1,6 @@
 # day-09
 
-1.Activity生命周期
+1. Activity生命周期
 
  * onDestroy-AC销毁 TextUtils可以判断字符串是否为空`TextUtils.isEmpty(phone)`
 
@@ -16,7 +16,7 @@
    * 要么只能横屏要么只能竖屏在Manifest中配置`<activity android:screenOrientation=`
    * 告诉手机忽略掉横竖屏所引起的生命周期问题`<activity android:configChanges="orientation|keyboradhidden">`
 
-2.任务栈
+2. 任务栈
 
 * singleTop：如果下一次要新建一个Activity，跟栈顶的是同样的Activity，则不会创建新的Activity
 
@@ -24,7 +24,7 @@
 
 * singleInstance的界面，独有自己的一个任务栈，该任务栈其他页面不能存放；如果已经出现了该界面，接下来再次启动该界面，没有效果；如果该界面已经创建，而且手机当前显示的是其他的界面，此时想启动该界面，那么会将该任务栈提前。
 
-3.广播
+3. 广播
 
 * 监听电话外拨是一个敏感操作，需要在Manifest中配置对应的权限。
 
@@ -38,9 +38,15 @@
 
 * 取消广播 abortionBrocast?
 
-* 关心安装包是否被安装或者卸载，需要添加<data:schma:package>
+* 关心安装包是否被安装或者卸载，需要添加`<data:schma:package>`
 
 
 4. 复习
 
-* url
+* HttpUrlConnneticon
+
+
+* HttpClient
+
+* 获取sd卡的路径 Enviroment.getExtranlStorage();
+
