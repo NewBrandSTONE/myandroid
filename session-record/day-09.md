@@ -37,3 +37,5 @@
 * 采用二进制的报文 bundle.get("pdus");
 
 * 取消广播 abortionBrocast?
+
+* 关心安装包是否被安装或者卸载，需要添加<data:schma:package>
