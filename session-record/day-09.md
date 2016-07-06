@@ -39,3 +39,8 @@
 * 取消广播 abortionBrocast?
 
 * 关心安装包是否被安装或者卸载，需要添加<data:schma:package>
+
+
+4. 复习
+
+* url
