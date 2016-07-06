@@ -33,3 +33,5 @@
 * 单纯的读取SD卡的状态不需要权限
 
 * 数据可以通过intent传输或者Bundle传递（Bundle只是把所有想要传递的数据封装起来了,内部是一个HashMap）
+
+* 采用二进制的报文 bundle.get("pdus");
