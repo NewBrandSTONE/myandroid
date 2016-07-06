@@ -13,5 +13,5 @@
  * onResume 从暂停中或者onPasuse中恢复
 
  * 横竖屏切换的时候，会导致Activity重新绘制
-   * 要么只能横屏要么只能竖屏
-   * 
+   * 要么只能横屏要么只能竖屏在Manifest中配置`<activity android:screenOrientation=`
+   * 告诉手机忽略掉横竖屏所引起的生命周期问题
