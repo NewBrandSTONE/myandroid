@@ -11,3 +11,5 @@
  * onPause 所有的控件都失去了焦点，不能跟用户进行交互
 
  * onResume 从暂停中或者onPasuse中恢复
+
+ * 横竖屏切换的时候，会导致Activity重新绘制
