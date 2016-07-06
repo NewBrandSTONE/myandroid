@@ -15,3 +15,7 @@
  * 横竖屏切换的时候，会导致Activity重新绘制
    * 要么只能横屏要么只能竖屏在Manifest中配置`<activity android:screenOrientation=`
    * 告诉手机忽略掉横竖屏所引起的生命周期问题`<activity android:configChanges="orientation|keyboradhidden">`
+
+2.任务栈
+
+* singleTop：如果下一次要新建一个Activity，跟栈顶的是同样的Activity，则不会创建新的Activity
