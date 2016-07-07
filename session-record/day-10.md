@@ -29,6 +29,8 @@
 
 3. Service
 
+* 没有界面 后台一直运行 可以与界面进行交互
+
 * getSystemService(String name)//name指定->获取系统级的服务
 
 * 如果想找几个常量，定义在一个类里，去找它的相关类
