@@ -37,6 +37,8 @@
 
 * 测试的时候，打电话的声音从MIC中来(MediaRecorder.AuiudioSource.MIC)
 
+* 服务的onCreate方法中也不应该执行耗时操作
+
 * 服务与子线程的区别
   * 
 
