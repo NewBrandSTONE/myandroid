@@ -6,6 +6,8 @@
 
 2. 自定义广播
 
-* 
+* sendOrderedBroadcast(intent)有序广播
+
+* sendBroadcast()无序广播
 
 
