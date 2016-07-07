@@ -23,5 +23,7 @@
 * SystemClock.sleep(ms); 让系统睡一下
 
 * BroadCastReceiver的 onReceive方式是在主线程里面运行的
+
+* getSystemService获取系统级的服务
   
 
