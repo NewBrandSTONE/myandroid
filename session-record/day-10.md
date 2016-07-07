@@ -4,6 +4,8 @@
 
 * intent.setType()设置MIME类型
 
+---
+
 2. 自定义广播
 
 * sendOrderedBroadcast(intent)有序广播
@@ -22,6 +24,8 @@
 * SystemClock.sleep(ms); 让系统睡一下
 
 * BroadCastReceiver的 onReceive方式是在主线程里面运行的
+
+---
 
 3. Service
 
