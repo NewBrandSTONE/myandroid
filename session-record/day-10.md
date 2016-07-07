@@ -17,7 +17,6 @@
 * 如何选型
   * 广播接受者需要顺序 广播接受者可以拦截的数据 可以修改数据的时候 选择有序广播
 
-
 * 广播接收者不能执行耗时操作，如果5秒时间内App没有响应，则弹出ANR(Application not response)
 
 * SystemClock.sleep(ms); 让系统睡一下
