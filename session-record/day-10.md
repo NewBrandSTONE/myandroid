@@ -39,6 +39,19 @@
 
 * 服务的onCreate方法中也不应该执行耗时操作
 
+* 
+
+```java
+Timer timer = new Timer();
+// 每三秒打印一句话
+// delay要延迟的描述
+timer.schedule(new TimerTask(){
+  public void run() {
+    Log.v("Oz", "Service");
+  }, 3000, 3000);
+}, delay, period);
+```
+
 * 服务与子线程的区别
   * 
 
