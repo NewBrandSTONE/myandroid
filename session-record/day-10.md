@@ -53,7 +53,7 @@ timer.schedule(new TimerTask(){
 ```
 
 * 服务与子线程的区别
-  * 
+  * 应用的进程被杀死(整个应用就退出了) 服务先被杀死，然后在被创建(先调用了onDestory方法，然后又调用了onCreate方法)
 
 
   
