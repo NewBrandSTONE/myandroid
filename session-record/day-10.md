@@ -37,6 +37,9 @@
 
 * 测试的时候，打电话的声音从MIC中来(MediaRecorder.AuiudioSource.MIC)
 
+* 服务与子线程的区别
+  * 
+
 
   
 
