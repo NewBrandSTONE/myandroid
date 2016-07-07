@@ -52,6 +52,8 @@ timer.schedule(new TimerTask(){
 }, delay, period);
 ```
 
+* Service的onCreate方法也是运行在主线程上面的
+
 * 服务与子线程的区别
   * 应用的进程被杀死(整个应用就退出了) 服务先被杀死，然后在被创建(先调用了onDestory方法，然后又调用了onCreate方法)
   * 应用的子线程被杀死 子线程也同样被杀死，不会再创建了
