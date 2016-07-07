@@ -24,6 +24,12 @@
 
 * BroadCastReceiver的 onReceive方式是在主线程里面运行的
 
+3. Service
+
 * getSystemService(String name)//name指定->获取系统级的服务
+
+* 如果想找几个常量，定义在一个类里，去找它的相关类
+
+
   
 
