@@ -29,7 +29,10 @@
 
 ```java
 // onCreate()方法中，通过代码来注册一个广播接收者
-
+IntentFilter filter = new IntentFilter();
+filter.addAction(Intent.ACTION_SCRREN_OFF); // 设置多个action
+filter.addAction(Intent.ACTION_SCRREN_ON); // 设置多个action
+registerReceiver(new SrceenReceiver(), filter); // 第一个参数是自己新建的类
 ```
 
 ---
