@@ -45,10 +45,11 @@
 
 * HttpUrlConnneticon
 
-
 * HttpClient
 
 * 获取sd卡的路径 Enviroment.getExtranlStorage();
+
+* SingleTask用在首页比较多，SingleTop
 
 
 
