@@ -39,7 +39,7 @@
 
 * 服务的onCreate方法中也不应该执行耗时操作
 
-* 
+* 让Service每三秒打印一句话
 
 ```java
 Timer timer = new Timer();
