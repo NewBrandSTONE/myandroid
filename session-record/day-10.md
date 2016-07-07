@@ -32,11 +32,13 @@
 IntentFilter filter = new IntentFilter();
 filter.addAction(Intent.ACTION_SCRREN_OFF); // 设置多个action
 filter.addAction(Intent.ACTION_SCRREN_ON); // 设置多个action
-registerReceiver(new SrceenReceiver(), filter); // 第一个参数是自己新建的类
+// 锁屏的对象 全局变量
+screenRegister = new SrceenReceiver();
+registerReceiver(screenRegister, filter); // 第一个参数是自己新建的类
 
 // onDestroy中
   super.onDestroy();
-  unregisterReceiver()screenRegester);
+  unregisterReceiver(screenRegister);
 ```
 
 ---
