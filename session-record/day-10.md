@@ -25,7 +25,7 @@
 
 * BroadCastReceiver的 onReceive方式是在主线程里面运行的
 
-* 锁屏与解锁是一个比较频繁的操作，此时广播的接收者不需要通过Manifest.xml这个配置文件来配置
+* 锁屏与解锁是一个比较频繁的操作，此时广播的接收者不需要通过Manifest.xml这个配置文件来配置，而是使用Java代码来进行注册
 
 ```java
 
