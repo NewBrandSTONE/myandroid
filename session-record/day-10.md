@@ -24,6 +24,6 @@
 
 * BroadCastReceiver的 onReceive方式是在主线程里面运行的
 
-* getSystemService获取系统级的服务
+* getSystemService(String name)//name指定->获取系统级的服务
   
 
