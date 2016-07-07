@@ -19,5 +19,7 @@
 
 
 * 5秒时间内App没有响应，则弹出ANR(Application not response)
+
+* SystemClock.sleep(ms); 让系统睡一下
   
 
