@@ -30,6 +30,8 @@
 
 * 如果想找几个常量，定义在一个类里，去找它的相关类
 
+* 测试的时候，打电话的声音从MIC中来(MediaRecorder.AuiudioSource.MIC)
+
 
   
 
