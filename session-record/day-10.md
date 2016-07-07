@@ -25,7 +25,7 @@
 
 * BroadCastReceiver的 onReceive方式是在主线程里面运行的
 
-* 锁屏与解锁是一个比较频繁的操作，此时广播的接收者不需要通过Manifest.xml这个配置文件来配置，而是使用Java代码来进行注册
+* 锁屏与解锁是一个比较频繁的操作，此时广播的接收者不需要通过Manifest.xml这个配置文件来配置，而是使用Java代码来进行注册，记得注册之后调用注销的方法(否则会报错)
 
 ```java
 // onCreate()方法中，通过代码来注册一个广播接收者
@@ -33,6 +33,10 @@ IntentFilter filter = new IntentFilter();
 filter.addAction(Intent.ACTION_SCRREN_OFF); // 设置多个action
 filter.addAction(Intent.ACTION_SCRREN_ON); // 设置多个action
 registerReceiver(new SrceenReceiver(), filter); // 第一个参数是自己新建的类
+
+// onDestroy中
+  super.onDestroy();
+  unregisterReceiver()screenRegester);
 ```
 
 ---
