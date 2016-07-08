@@ -11,5 +11,5 @@
 * [day-06](session_record/day-06.md)
 * [day-09](session-record/day-09.md)
 * [day-10](session-record/day-10.md)
-* day-11
+* [day-11](/session_record/day-11.md)
 
