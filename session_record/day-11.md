@@ -18,4 +18,4 @@
 
 * 绑定服务的生命周期(重点复习啊)
 
-* aidl 不认识public 因为它本身就是一种协议，默认就是public，所以不需要再添加public
+* aidl 方法生命中不认识public 因为它本身就是一种协议，默认就是public，所以不需要再添加public
