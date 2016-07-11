@@ -20,3 +20,9 @@
 <uses-library android:name="android.test.runner" />
 </application>
 ```
+
+2.配置内容提供者
+
+```xml
+<provider android:name="对应Provider的全限定名" android:authorites="内容提供者的地址，相当于主机名,就是对应的uri"></provider>
+```
