@@ -35,3 +35,5 @@ android:exported="true"
 ```java
 ContentResolver cr = getContentResolver();
 ```
+
+4.使用ContentValues 插入不同字段的数据，记得要values.clear()一下，如果是插入相同的数据，则不用clear
