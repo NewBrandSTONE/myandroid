@@ -37,3 +37,6 @@ ContentResolver cr = getContentResolver();
 ```
 
 4.使用ContentValues 插入不同字段的数据，记得要values.clear()一下，如果是插入相同的数据，则不用clear
+
+5.代码块、静态代码块、构造方法执行的先后顺序
+
