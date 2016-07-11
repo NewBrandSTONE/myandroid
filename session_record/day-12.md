@@ -30,3 +30,8 @@ exported="true" // 可以导出数据
 android:exported="true" 
 ></provider>
 ```
+
+3.拿到contentResolver
+```java
+ContentResolver cr = getContentResolver();
+```
