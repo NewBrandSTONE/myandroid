@@ -45,5 +45,7 @@ ContentResolver cr = getContentResolver();
 
 6.XML标签中的standalone是什么意思
 
-// standalone  用来表示该文件是否呼叫其它外部的文件。若值是 ”yes” 表示没有呼叫外部文件，若值是 ”no” 则表示有呼叫外部文件。默认值是 “yes”
+ * standalone
+
+用来表示该文件是否呼叫其它外部的文件。若值是 ”yes” 表示没有呼叫外部文件，若值是 ”no” 则表示有呼叫外部文件。默认值是 “yes”
 xs.startDocument("utf-8", true);
