@@ -24,7 +24,9 @@
 2.配置内容提供者
 
 通过这个URI系统能够精确的知道，我们要访问的是哪个provider
-
+exported="true" // 可以导出数据
 ```xml
-<provider android:name="对应Provider的全限定名" android:authorites="内容提供者的地址，相当于主机名,就是对应的uri"></provider>
+<provider android:name="对应Provider的全限定名" android:authorites="内容提供者的地址，相当于主机名,就是对应的uri"
+android:exported="true" 
+></provider>
 ```
