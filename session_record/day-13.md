@@ -2,6 +2,7 @@
 
 1.布局文件中android:width与android:layout_width的区别是什么?
 
+
 2.将bitmap保存到文件中
 
 ```java
