@@ -9,3 +9,5 @@
 FileOutputStream fous = openFileOutput("test.png", MODE_PRIVATE);
 bitmap.compress(Bitmap.CompressFormat.PNG, 100, fous);
 ```
+
+3.在做画画板的时候，在ACTION_MOVE里面将mStartX = mEndX 同理Y轴也是一样
