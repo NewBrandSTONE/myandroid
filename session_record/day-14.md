@@ -34,3 +34,5 @@ android:screenOrientation="landscape"
 不使用mediaplay，使用FFMpeg RTMP协议
 
 4.nineofAndroid.jar是用来干嘛的
+
+5.Should have subtitle controller already set 报错
