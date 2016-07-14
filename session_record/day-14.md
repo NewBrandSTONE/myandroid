@@ -32,3 +32,5 @@ android:screenOrientation="landscape"
 3.直播
 
 不使用mediaplay，使用FFMpeg RTMP协议
+
+4.nineofAndroid.jar是用来干嘛的
