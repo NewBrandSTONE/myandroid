@@ -36,3 +36,7 @@ android:screenOrientation="landscape"
 4.nineofAndroid.jar是用来干嘛的
 
 5.Should have subtitle controller already set 报错
+
+http://stackoverflow.com/questions/20087804/should-have-subtitle-controller-already-set-mediaplayer-error-android
+
+无关紧要的报错
