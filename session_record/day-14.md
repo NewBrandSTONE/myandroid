@@ -28,3 +28,7 @@ android:screenOrientation="landscape"
         </activity>
     </application>
 ```
+
+3.直播
+
+不使用mediaplay，使用FFMpeg RTMP协议
