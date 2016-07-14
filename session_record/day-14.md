@@ -26,7 +26,7 @@ android:screenOrientation="landscape"
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+</application>
 ```
 
 3.直播
