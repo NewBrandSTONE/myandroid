@@ -18,3 +18,5 @@ getString如果对应的key不存在，则会抛出一个JSonException
 4.SystemClock.sleep(2000)
 
 模拟网络请求两秒钟
+
+5.GsonFomat
