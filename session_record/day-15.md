@@ -20,3 +20,5 @@ getString如果对应的key不存在，则会抛出一个JSonException
 模拟网络请求两秒钟
 
 5.GsonFomat/AS实现快速生成JSON的Bean对象
+
+6.自定义控件 (包名 + 控件名)
