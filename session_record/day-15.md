@@ -13,7 +13,7 @@ getString如果对应的key不存在，则会抛出一个JSonException
 
 3.每次修改ListView里面的数据集的
 
-通知ListView刷新一下界面notifyDataSetChange?
+通知ListView刷新一下界面notifyDataSetChanged?
 
 4.SystemClock.sleep(2000)
 
