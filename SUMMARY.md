@@ -14,5 +14,6 @@
 * [day-11](session_record/day-11.md)
 * [day-12](session_record/day-12.md)
 * [day-13](session_record/day-13.md)
-* [day-14](/session_record/day-14.md)
+* [day-14](session_record/day-14.md)
+* day-15
 
