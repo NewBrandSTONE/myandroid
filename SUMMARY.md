@@ -15,5 +15,6 @@
 * [day-12](session_record/day-12.md)
 * [day-13](session_record/day-13.md)
 * [day-14](session_record/day-14.md)
-* [day-15](/session_record/day-15.md)
+* [day-15](session_record/day-15.md)
+* day-16-jni
 
