@@ -34,7 +34,7 @@ if (code == 200) {
 }
 ```
 
-`StringUtils`
+`StringUtils.java`
 ```java
 public static String readInputStream(InputStream ins) {
   ByteArrayOutputStream boas = new ByteArrayOutputStream();
