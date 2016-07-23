@@ -78,3 +78,6 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
 
 * 只有在主线程中才能new AlertDialog
 * 使用`Message msg = Message.Obtain()`
+
+4.下载文件的时候需要使用到断点续传`Xutils`第三方jar包
+
