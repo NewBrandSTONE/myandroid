@@ -84,3 +84,9 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
 
 4.下载文件的时候需要使用到断点续传`Xutils`第三方jar包
 
+5.setDataAndType
+
+在使用Intent.setType\/setData的时候，这两句必须要合并在一起，如何不合并在一起的话，执行setType\/setData方法之后，就会把数据清空。
+
+
+
