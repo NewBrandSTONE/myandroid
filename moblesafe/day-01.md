@@ -12,6 +12,7 @@
 * 需要AndroidManifest.xml中配置对应的网络权限
 
 `SplahActivity.java`
+
 ```java
 // 1.得到响应的url
 URL url = new URL(getResource.getString(R.string.url));
@@ -45,6 +46,7 @@ if (code == 200) {
 ```
 
 `StringUtils.java`
+
 ```java
 public static String readInputStream(InputStream ins) {
   ByteArrayOutputStream boas = new ByteArrayOutputStream();
@@ -63,6 +65,7 @@ public static String readInputStream(InputStream ins) {
 ```
 
 `IntentUtils`
+
 ```java
 public static void startIntent(Activity context, Class clazz, long delayTime) {
   new Thread() {
