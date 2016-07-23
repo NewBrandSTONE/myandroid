@@ -11,6 +11,7 @@
 * 需要在子线程中操作
 * 需要AndroidManifest.xml中配置对应的网络权限
 
+`SplahActivity.java`
 ```java
 // 1.得到响应的url
 URL url = new URL(getResource.getString(R.string.url));
@@ -26,6 +27,27 @@ conn.setConnectionTimeout(5000);
 int code = conn.getResponseCode();
 if (code == 200) {
   // 说明连接是成功的
+  // 得到服务器返回的输入流
+  InputStream is = conn.getInputStream();
+  // 将输入流转换为String字符串
+  
 }
 ```
 
+`StringUtils`
+```java
+public static String readInputStream(InputStream ins) {
+  ByteArrayOutputStream boas = new ByteArrayOutputStream();
+  byte[] bufere = new byte[1024];
+  int len = -1;
+  while((len = is.read(bufere)) != -1) {
+    boas.write(bufere, 0, len);
+  }
+  ins.close();
+  boas.close();
+  return boas.toString();
+  finally {
+    boas.close();
+  }
+}
+```
