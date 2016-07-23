@@ -112,4 +112,6 @@ clickable=false
 
 13.自定义TextView
 
-isFocused->默认返回false表示不能获取焦点
+isFocused->默认返回false表示不能获取焦点，返回true就表示可以获取焦点
+
+elizpes="marxxxx"->对应跑马灯的效果。
