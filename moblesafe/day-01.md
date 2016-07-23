@@ -109,3 +109,7 @@ _**9.图片放到drable和mdp里面有什么区别?**_
 12.checkbox获取焦点的事件要默认关闭。
 focusable=false
 clickable=false
+
+13.自定义TextView
+
+isFocused->默认返回false表示不能获取焦点
