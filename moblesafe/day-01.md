@@ -100,5 +100,5 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
 
 ***9.图片放到drable和mdp里面有什么区别?***
 
-10.去掉GraidView中的点击背景颜色
-
+10.去掉GridView中的点击背景颜色
+`android:listSelector="@android:color/transparent"`
