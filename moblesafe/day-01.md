@@ -92,5 +92,7 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
 
 `Generate Signed APK` 打包出来的是releas版本的
 
+7.sp是用在text的文字上面的像素单位
+
 
 
