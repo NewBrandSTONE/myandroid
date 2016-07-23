@@ -90,5 +90,5 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
 
 6.APK的签名
 
-\`Generate Signed APK\`
+`Generate Signed APK`
 
