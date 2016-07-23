@@ -73,3 +73,8 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
   }
 }
 ```
+
+3.消息传递机制
+
+* 只有在主线程中才能new AlertDialog
+* 使用`Message msg = Message.Obtain()`
