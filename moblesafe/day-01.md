@@ -30,7 +30,12 @@ if (code == 200) {
   // 得到服务器返回的输入流
   InputStream is = conn.getInputStream();
   // 将输入流转换为String字符串
-  
+  String jsonString = StringUtils.readInputStream(is);
+  // 解析Json类型的数据
+  JSONObject jsonObject = new JSONObject();
+  int version = jsonObject.getInt("version");
+  Sting downloadURL =  jsonObject.getString("dowloadUrl");
+  String des = jsonObject.getString("des");
 }
 ```
 
