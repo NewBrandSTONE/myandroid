@@ -94,5 +94,9 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
 
 7.sp是用在text的文字上面的像素单位
 
+8.GridView
+
+显示有多少行增加属性`numColumns`
+
 
 
