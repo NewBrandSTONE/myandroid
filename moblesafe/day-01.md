@@ -98,7 +98,11 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
 
 显示有多少行增加属性`numColumns`
 
-***9.图片放到drable和mdp里面有什么区别?***
+_**9.图片放到drable和mdp里面有什么区别?**_
 
 10.去掉GridView中的点击背景颜色
 `android:listSelector="@android:color/transparent"`
+
+11.选择器selector
+可以设置按下去对应显示的图片，以及没有点击时的图片。
+
