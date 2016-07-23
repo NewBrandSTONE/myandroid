@@ -88,5 +88,7 @@ public static void startIntent(Activity context, Class clazz, long delayTime) {
 
 在使用Intent.setType\/setData的时候，这两句必须要合并在一起，如何不合并在一起的话，执行setType\/setData方法之后，就会把数据清空。
 
+6.APK的签名
 
+\`Generate Signed APK\`
 
