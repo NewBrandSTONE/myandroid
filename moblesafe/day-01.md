@@ -107,3 +107,5 @@ _**9.图片放到drable和mdp里面有什么区别?**_
 可以设置按下去对应显示的图片，以及没有点击时的图片。
 
 12.checkbox获取焦点的事件要默认关闭。
+focusable=false
+clickable=false
