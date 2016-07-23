@@ -36,6 +36,11 @@ if (code == 200) {
   int version = jsonObject.getInt("version");
   Sting downloadURL =  jsonObject.getString("dowloadUrl");
   String des = jsonObject.getString("des");
+  if (version > AppInifoUtils.getVersionCode()) {
+    // 说明软件需要更新
+  } else {
+    // 直接跳到主界面
+  }
 }
 ```
 
