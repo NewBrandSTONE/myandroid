@@ -61,3 +61,15 @@ public static String readInputStream(InputStream ins) {
   }
 }
 ```
+
+`IntentUtils`
+```java
+public static void startIntent(Activity context, Class clazz, long delayTime) {
+  new Thread() {
+    SystemClocl.sleep(delayTime);
+    Intent intent = new Intent(context, clazz);
+    // 启动一个Activity
+    context.startActivity(intent);
+  }
+}
+```
