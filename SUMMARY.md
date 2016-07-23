@@ -18,5 +18,5 @@
 * [day-15](session_record/day-15.md)
 * [day-16-jni](session_record/day-16-jni.md)
 * [day-17](session_record/day-17.md)
-* day-01
+* [day-01](/moblesafe/day-01.md)
 
